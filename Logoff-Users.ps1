@@ -24,7 +24,7 @@
  
  foreach ($session in $sessions)
  {
- If ($session.username -eq "adminmb") 
+ If ($session.username -eq "XXXXXXXXX") 
     {logoff $session.Id}
 
   
